@@ -11,11 +11,16 @@ body {
 }
 
 .header {
-    height: 89px;
-    background-color: #2d303a;
     display:flex;
+    flex-direction: column;
+}
+
+.header-wrapper {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 89px;
+    background-color: #2d303a;
 }
 
 .logo {
@@ -33,13 +38,14 @@ body {
 }
 
 .navigation {
-margin-top: 42px;
-margin-right: 40px;
+    margin-top: 42px;
+    margin-right: 40px;
 }
 
-.container spacer {
+.spacer {
     background-color: #323746;
     height: 6px;
+    width: 100%;
 
 }
 
